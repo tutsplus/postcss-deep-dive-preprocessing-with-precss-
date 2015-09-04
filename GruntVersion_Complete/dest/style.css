@@ -1,0 +1,74 @@
+.menu {
+	width: 100%;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.menu::before {
+	content: '';
+}
+
+body {
+	color: #232323;
+}
+
+.column {
+	width: 50%;
+	float: left
+}
+
+p:nth-of-type(1) {
+	margin-left: calc( 100% / 1 );
+}
+
+p:nth-of-type(2) {
+	margin-left: calc( 100% / 2 );
+}
+
+p:nth-of-type(3) {
+	margin-left: calc( 100% / 3 );
+}
+
+.icon-twitter {
+	background: url('img/twitter.png');
+}
+
+.icon-facebook {
+	background: url('img/facebook.png');
+}
+
+.icon-youtube {
+	background: url('img/youtube.png');
+}
+
+.button.twitter {
+	background-image: url('img/twitter.png');
+	background-color: blue;
+	width: 3rem;
+}
+
+.button.youtube {
+	background-image: url('img/youtube.png');
+	background-color: red;
+	width: 4rem;
+}
+
+.blue_button,
+.red_button {
+	border-radius: 0.5rem;
+	padding: 1em;
+	border-width: 0.0625rem;
+	border-style: solid;
+}
+
+.blue_button {
+	border-color: #2F74D1;
+	background-color: #3B8EFF;
+}
+
+.red_button {
+	border-color: #C41A1E;
+	background-color: #FF2025;
+}
